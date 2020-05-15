@@ -1,0 +1,63 @@
+header {
+    padding-right: 13%;
+    padding-left: 13%;
+    padding-top: 30px;
+}
+
+footer {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    background-color: #FFEBEB;
+    height: flex;
+    color: rgb(68, 68, 68);
+}
+
+td{
+    padding: 25px; 
+    max-width: 500px;
+}
+
+hr {
+    width: 60%;
+}
+
+.img-ranna {
+    max-height: 300px;
+    border-radius: 500px;
+    padding: 0%;
+}
+
+.icons {
+    height: 50px;
+    padding-right: 5px;
+}
+
+.about {
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #FFEBEB;
+    height: flex;
+}
+
+.courses, .awards {
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: flex;
+}
+
+.gallery {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.lado-a-lado{
+    display: flex;
+    flex-wrap: wrap;
+}
