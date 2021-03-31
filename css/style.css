@@ -1,8 +1,22 @@
 header {
-    padding-right: 13%;
-    padding-left: 13%;
+    padding-right: 9%;
+    padding-left: 9%;
     padding-top: 30px;
-    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Abril Fatface', cursive;
+    color: peru;
+}
+
+a:link, a:hover, a:visited {
+    color: gray;
+    text-decoration: underline;
+}
+
+td {
+    width: 50%;
+    padding-bottom: 5%;
 }
 
 footer {
@@ -14,7 +28,26 @@ footer {
     background-color: rgb(243, 243, 243);
     height: flex;
     color: rgb(68, 68, 68);
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    color: peru;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact {
+    text-decoration: none;
 }
 
 /* ------------ */
@@ -53,19 +86,9 @@ footer {
 /* ------------ */
 
 #corpo {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 7%;
-    padding-bottom: 7%;
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
-#introdution, #publications, #arts, #digital-letterings, #courses, #awards, #about, #work, #formation {
-    margin-bottom: 7%;
-}
-
-#title {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
 }
