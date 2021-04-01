@@ -4,9 +4,9 @@ header {
     padding-top: 30px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Abril Fatface', cursive;
-    color: peru;
+    color: red;
 }
 
 a:link, a:hover, a:visited {
@@ -32,11 +32,7 @@ footer {
 }
 
 .title {
-    color: peru;
-}
-
-.radius {
-    border-radius: 50%;
+    color: red;
 }
 
 .center {
@@ -48,6 +44,12 @@ footer {
 
 .contact {
     text-decoration: none;
+}
+
+.img-radius {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
 }
 
 /* ------------ */
