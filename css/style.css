@@ -15,7 +15,7 @@ nav, .navbar {
     justify-content: center;
 }
 
-a:hover, a:visited {
+a:hover, a:visited, href {
     color: black;
     text-decoration: none;
 }
