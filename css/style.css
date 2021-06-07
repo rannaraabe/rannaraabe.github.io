@@ -1,92 +1,46 @@
-header {
-    padding-right: 9%;
-    padding-left: 9%;
-    padding-top: 0.5%;
+body{
+    font-size: 18px !important;
 }
 
-nav {
-    font-family: 'Montserrat', sans-serif;
+nav, .navbar {
     font-size: 20px;
     text-decoration: none;
+    align-items: center;
+    /* font-family: 'Newsreader', serif; */
 }
 
-p {
-    font-family: 'Playfair Display SC', serif;
+#navbarNav {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+a:hover, a:visited {
     color: black;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Newsreader', serif;
-    /* color: navy; */
-    color: black;
-    /* color: darkblue; */
-}
-
-a:link, a:hover, a:visited {
-    color: gray;
-    text-decoration: underline;
-}
-
-a.text-dark {
     text-decoration: none;
-}
-
-td {
-    width: 50%;
-    padding-bottom: 5%;
 }
 
 footer {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 1%;
+    padding-top: 2%;
     text-align: center;
     /* background-color: rgb(243, 243, 243); */
     height: flex;
-    color: rgb(68, 68, 68);
-    font-family: 'Montserrat', sans-serif;
 }
 
-.title {
-    color: mediumblue;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.contact {
+.link {
+    color: black;
     text-decoration: none;
 }
-
-.img-radius {
-    width: 500px;
-    height: auto;
-    border-radius: 50%;
-}
-
-.gallery {
-    -webkit-filter: grayscale(100%);
-    filter: brightness(0.7) grayscale(100%);
-    filter: black;
-}
-
-.gallery:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    filter: black;
-}
-
-
 /* ------------ */
 /* images grid */
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .column {
@@ -116,10 +70,9 @@ footer {
 }
 /* ------------ */
 
-#corpo {
+.contact, #about {
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 0.5%;
-    padding-bottom: 2%;
-    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
+    text-align: center;
 }
