@@ -201,12 +201,12 @@ hr {
 }
 
 [data-predefined-style="true"] main {
-	font-size: 3.2rem;
+	font-size: clamp(1.6rem, 2.3vw, 2.6rem);
 	font-weight: 200;
 	color: rgba(0, 0, 0, 0.7);
-	font-family: "Nitti Grotesk", Social;
+	font-family: 'Gowun Batang', serif;
 	font-style: normal;
-	line-height: 1.6;
+	line-height: 1.5;
 }
 
 [data-predefined-style="true"] main a {
@@ -228,12 +228,12 @@ main a.icon-link:hover {
 }
 
 [data-predefined-style="true"] h1 {
-	font-family: 'Titling Gothic FB Normal', Social /*!Persona*/;
+	font-family: 'Gowun Batang', serif;
 	font-style: normal;
 	font-weight: 400;
 	padding: 0;
 	margin: 0;
-	font-size: 3.6rem;
+	font-size: clamp(2.5rem, 3vw, 3.2rem);
 	line-height: 1.2;
 	color: rgba(0, 0, 0, 0.8);
 	text-rendering: optimizeLegibility;
@@ -244,13 +244,13 @@ main a.icon-link:hover {
 }
 
 [data-predefined-style="true"] h2 {
-	font-family: "Titling Gothic FB Normal", Social /*!Persona*/;
+	font-family: 'Gowun Batang', serif;
 	font-style: normal;
 	font-weight: 400;
 	padding: 0;
 	margin: 0;
 	color: rgba(0, 0, 0, 0.4);
-	font-size: 2.4rem;
+	font-size: clamp(1.5rem, 2vw, 2.2rem);
 	line-height: 1.8;
 	text-rendering: optimizeLegibility;
 }
@@ -265,7 +265,7 @@ main a.icon-link:hover {
 	display: inline-block;
 	font-size: 1.2rem;
 	line-height: 1.4;
-	font-family: 'Titling Gothic FB Normal', Social;
+	font-family: 'Gowun Batang', serif;
 	font-style: normal;
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.6);
